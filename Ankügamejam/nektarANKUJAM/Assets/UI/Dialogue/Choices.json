@@ -1,0 +1,180 @@
+﻿{
+    "inkVersion": 21,
+    "root": [
+        [
+            {
+                "->": "main"
+            },
+            [
+                "done",
+                {
+                    "#f": 5,
+                    "#n": "g-0"
+                }
+            ],
+            null
+        ],
+        "done",
+        {
+            "main": [
+                [
+                    "^O da ne ? Benim dışımda birimi ! Sen de kimsin ?",
+                    "\n",
+                    "ev",
+                    "str",
+                    "^Asıl sen kimsin?",
+                    "/str",
+                    "/ev",
+                    {
+                        "*": ".^.c-0",
+                        "flg": 20
+                    },
+                    {
+                        "c-0": [
+                            "\n",
+                            "^Gizemli Adam: O kara günden beri burada tek başıma yaşamaya çalışıyorum bir tek ben kaldım..",
+                            "\n",
+                            {
+                                "->": "cvp2"
+                            },
+                            {
+                                "#f": 5
+                            }
+                        ]
+                    }
+                ],
+                {
+                    "#f": 1
+                }
+            ],
+            "npccevap1": [
+                [
+                    "^Açıkçası bunu hiç ama hiç beklemiyordum madem burdasın o zaman bana yardım et?",
+                    "\n",
+                    "ev",
+                    "str",
+                    "^Yardım mı ? Zaten burayı kurtacağım ?",
+                    "/str",
+                    "/ev",
+                    {
+                        "*": ".^.c-0",
+                        "flg": 20
+                    },
+                    {
+                        "c-0": [
+                            "\n",
+                            "^Gizemli Adam: Evet benim için çok ama çok önemli bir şey bulmalısın.",
+                            "\n",
+                            [
+                                "ev",
+                                "str",
+                                "^neymiş o ?",
+                                "/str",
+                                "/ev",
+                                {
+                                    "*": ".^.c-0",
+                                    "flg": 20
+                                },
+                                {
+                                    "c-0": [
+                                        "\n",
+                                        "^Gizemli Adam: Buranın doğusunda çalıların ardında kaybettim. Bulunca anlarsın...",
+                                        "\n",
+                                        [
+                                            "ev",
+                                            "str",
+                                            "^Hmm",
+                                            "/str",
+                                            "/ev",
+                                            {
+                                                "*": ".^.c-0",
+                                                "flg": 20
+                                            },
+                                            {
+                                                "c-0": [
+                                                    "\n",
+                                                    "^Gizemli Adam: Teşekkür ederim delikanlı.",
+                                                    "\n",
+                                                    {
+                                                        "->": "konusmasonland"
+                                                    },
+                                                    {
+                                                        "#f": 5
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        {
+                                            "#f": 5
+                                        }
+                                    ]
+                                }
+                            ],
+                            {
+                                "#f": 5
+                            }
+                        ]
+                    }
+                ],
+                {
+                    "#f": 1
+                }
+            ],
+            "konusmasonland": [
+                [
+                    "ev",
+                    "str",
+                    "^Konuşmayı Sonlandır",
+                    "/str",
+                    "/ev",
+                    {
+                        "*": ".^.c-0",
+                        "flg": 20
+                    },
+                    {
+                        "c-0": [
+                            "\n",
+                            "end",
+                            {
+                                "#f": 5
+                            }
+                        ]
+                    }
+                ],
+                {
+                    "#f": 1
+                }
+            ],
+            "cvp2": [
+                [
+                    "ev",
+                    "str",
+                    "^Tahmin edilebilir ..",
+                    "/str",
+                    "/ev",
+                    {
+                        "*": ".^.c-0",
+                        "flg": 20
+                    },
+                    {
+                        "c-0": [
+                            "\n",
+                            {
+                                "->": "npccevap1"
+                            },
+                            {
+                                "#f": 5
+                            }
+                        ]
+                    }
+                ],
+                {
+                    "#f": 1
+                }
+            ],
+            "#f": 1
+        }
+    ],
+    "listDefs": {
+    }
+}

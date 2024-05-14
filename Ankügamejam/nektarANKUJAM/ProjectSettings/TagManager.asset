@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Bullet
+  - player
+  - AttackPlace
+  - Enemy
+  - Stone
+  - Wall
+  - FireBoss
+  - Hitbox
+  - ElBoss
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Walls
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - planetpiece
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: floor
+    uniqueID: 237206661
+    locked: 0
+  - name: hedge
+    uniqueID: 163281485
+    locked: 0
+  - name: decoration
+    uniqueID: 3847710507
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
